@@ -1,0 +1,117 @@
+body, html{
+  margin: 0;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+.light-colored{
+  background-color: #FFFAFA;
+  color: #20B2AA;
+}
+
+.colored-bg {
+background-color: #20B2AA;
+ color:#F0FFF0;
+}
+
+/* Title page */
+.title-header {
+  padding: 2% 17%;
+}
+.list1{
+  color:#68d1b7;
+}
+a.list1:hover {
+  color: #20B2AA;
+}
+.intro {
+  font-weight:700;
+  padding-bottom: 8%;
+}
+
+.click {
+  width: 50%;
+  font-weight: 700;
+  padding: 2% 0;
+}
+.spongebob-img {
+  width:70%;
+  border-radius: 100%;
+
+}
+.title-box {
+  padding: 7% 5% 7% 13%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+ /* Things to do */
+ .things-to-do {
+   padding: 5% 5%;
+   font-size: 1.5rem;
+ }
+ .friend-img {
+   width: 30%;
+   border-radius: 100%;
+ }
+ .carousel-part{
+   padding: 0px 15%;
+ }
+
+ /* Scrapbook  */
+.scrapbook {
+  padding: 5% 12%;
+}
+
+.scrap-items {
+  padding-top: 5%;
+}
+
+ .scrapbook-img {
+   padding: 5% 3%;
+   width: 80%;
+   height: 60%;
+ }
+ .scrapbook-text {
+   text-align: left;
+   padding-left: 35px;
+ }
+
+/* Call to action */
+.call-to-action {
+  padding: 5% 15%;
+}
+
+/* Contacts */
+.contacts {
+  color: grey;
+  padding-top: 5%;
+}
+.icon {
+  padding: 20px 7px;
+}
+.copyright {
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width:480px) {
+  .title-header {
+    padding: 2% 5%;
+  }
+  .spongebob-img {
+    width:70%;
+    border-radius: 100%;
+
+  }
+  .title-box {
+    padding: 5% 2% 5% 1%;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .friend-img {
+    width: 50%;
+    border-radius: 100%;
+  }
+
+}
